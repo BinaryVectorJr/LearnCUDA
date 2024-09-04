@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amazumda\\Projects\\LearnCUDA\\learn1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|C:\\Users\\amazumda\\Projects\\LearnCUDA\\learn1\\learn1\\hello.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|solutionrelative:learn1\\hello.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "hello.cu",
+              "DocumentMoniker": "C:\\Users\\amazumda\\Projects\\LearnCUDA\\learn1\\learn1\\hello.cu",
+              "RelativeDocumentMoniker": "learn1\\hello.cu",
+              "ToolTip": "C:\\Users\\amazumda\\Projects\\LearnCUDA\\learn1\\learn1\\hello.cu",
+              "RelativeToolTip": "learn1\\hello.cu",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-29T00:10:29.444Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
