@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|C:\\Users\\amazumda\\Projects\\LearnCUDA\\learn1\\learn1\\hello.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|solutionrelative:learn1\\hello.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|C:\\Users\\amazumda\\Projects\\LearnCUDA\\learn1\\learn1\\vectoradd.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|solutionrelative:learn1\\vectoradd.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|C:\\Users\\amazumda\\Projects\\LearnCUDA\\learn1\\learn1\\vectoradd.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|solutionrelative:learn1\\vectoradd.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +32,33 @@
               "RelativeDocumentMoniker": "learn1\\hello.cu",
               "ToolTip": "C:\\Users\\amazumda\\Projects\\LearnCUDA\\learn1\\learn1\\hello.cu",
               "RelativeToolTip": "learn1\\hello.cu",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAwwEkAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-18T15:21:46.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vectoradd.h",
+              "DocumentMoniker": "C:\\Users\\amazumda\\Projects\\LearnCUDA\\learn1\\learn1\\vectoradd.h",
+              "RelativeDocumentMoniker": "learn1\\vectoradd.h",
+              "ToolTip": "C:\\Users\\amazumda\\Projects\\LearnCUDA\\learn1\\learn1\\vectoradd.h",
+              "RelativeToolTip": "learn1\\vectoradd.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-18T16:20:21.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "vectoradd.cu",
+              "DocumentMoniker": "C:\\Users\\amazumda\\Projects\\LearnCUDA\\learn1\\learn1\\vectoradd.cu",
+              "RelativeDocumentMoniker": "learn1\\vectoradd.cu",
+              "ToolTip": "C:\\Users\\amazumda\\Projects\\LearnCUDA\\learn1\\learn1\\vectoradd.cu",
+              "RelativeToolTip": "learn1\\vectoradd.cu",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAKoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-08-29T00:10:29.444Z",
               "EditorCaption": ""
