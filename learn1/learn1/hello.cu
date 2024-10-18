@@ -2,7 +2,5 @@
 
 int main()
 {
-
 	H_VectorAddMulti();
-
 }
