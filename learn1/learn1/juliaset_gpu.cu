@@ -23,7 +23,11 @@ void GPU_Generate_JuliaSet()
 	dim3 grid(DIM, DIM);
 	// Fancy wrapper to eliminate squiggly line in the general kernel calls
 	// GPU_Kernel << <grid, 1 >> > (device_bitmap);
-	GPU_Kernel KERNEL_ARGS2(grid, 1) (device_bitmap);
+	GPU_Kernel KERNEL_ARGS2(grid, 1) (device_bitmap);	
+	
+	// TODO: I should change the above kernel call from 1 to 10 (or N) to increase performance
+	// Try to depend less on launching blocks and try to have a balance b/w blocks and threads
+	// Threads launch and execute serially if each block does not get a scheduler; threads always run simultaneously thus always having a scheduler.
 
 	// CUDA - checking and printing the last error stored (if any)
 	cudaError_t error = cudaGetLastError();
@@ -58,8 +62,8 @@ __global__ void GPU_Kernel(unsigned char *_ptr)
 {
 	// Mapping occurs from threadIdx or BlockIdx to position of a pixel
 
-	int x = blockIdx.x;
-	int y = blockIdx.y;
+	int x = blockIdx.x;		// TODO: this would need to change based on whether we are using 1 or N threads in kernel call
+	int y = blockIdx.y;		// TODO: this would also change based on whether we are using 1 or N threads in kernel call; 
 	int offset = x + y * gridDim.x;
 
 	// Calculating the value at that position (stride of 4)
@@ -90,6 +94,7 @@ __device__ int GPU_JuliaCalc(int _x, int _y)
 	GPU_cuComplex a(jx, jy);
 
 	// Checking if a value belongs to the Julia Set
+	// TODO: Reducing i by 50% increases performance slightly; check how to make throughput better (use NSight for metrics)
 	int i = 0;
 	for (i = 0; i < 200; i++)
 	{

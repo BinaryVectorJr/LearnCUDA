@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\dotproduct_gpu.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|solutionrelative:learn1\\dotproduct_gpu.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\dotproduct_gpu.cuh||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|solutionrelative:learn1\\dotproduct_gpu.cuh||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\hello.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|solutionrelative:learn1\\hello.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\juliaset_gpu.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|solutionrelative:learn1\\juliaset_gpu.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\juliaset_gpu.cuh||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|solutionrelative:learn1\\juliaset_gpu.cuh||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "hello.cu",
               "DocumentMoniker": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\hello.cu",
               "RelativeDocumentMoniker": "learn1\\hello.cu",
               "ToolTip": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\hello.cu",
               "RelativeToolTip": "learn1\\hello.cu",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-10-18T15:21:46.628Z",
               "IsPinned": true,
@@ -40,28 +40,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "juliaset_gpu.cuh",
-              "DocumentMoniker": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\juliaset_gpu.cuh",
-              "RelativeDocumentMoniker": "learn1\\juliaset_gpu.cuh",
-              "ToolTip": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\juliaset_gpu.cuh",
-              "RelativeToolTip": "learn1\\juliaset_gpu.cuh",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA",
+              "DocumentIndex": 1,
+              "Title": "dotproduct_gpu.cuh",
+              "DocumentMoniker": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\dotproduct_gpu.cuh",
+              "RelativeDocumentMoniker": "learn1\\dotproduct_gpu.cuh",
+              "ToolTip": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\dotproduct_gpu.cuh",
+              "RelativeToolTip": "learn1\\dotproduct_gpu.cuh",
+              "ViewState": "AQIAABEAAAAAAAAAAAD4vx0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-07T20:18:27.415Z",
+              "WhenOpened": "2024-12-09T19:09:50.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "juliaset_gpu.cu",
-              "DocumentMoniker": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\juliaset_gpu.cu",
-              "RelativeDocumentMoniker": "learn1\\juliaset_gpu.cu",
-              "ToolTip": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\juliaset_gpu.cu",
-              "RelativeToolTip": "learn1\\juliaset_gpu.cu",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "dotproduct_gpu.cu",
+              "DocumentMoniker": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\dotproduct_gpu.cu",
+              "RelativeDocumentMoniker": "learn1\\dotproduct_gpu.cu",
+              "ToolTip": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\dotproduct_gpu.cu",
+              "RelativeToolTip": "learn1\\dotproduct_gpu.cu",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-07T20:18:43.201Z",
+              "WhenOpened": "2024-12-09T19:10:11.482Z",
               "EditorCaption": ""
             }
           ]
