@@ -15,12 +15,12 @@
 #define KERNEL_ARGS2(grid, block)                 <<< blocksPerGrid, threadsPerBlock >>>
 #define KERNEL_ARGS3(grid, block, sh_mem)         <<< blocksPerGrid, threadsPerBlock, sh_mem >>>
 #define KERNEL_ARGS4(grid, block, sh_mem, stream) <<< blocksPerGrid, threadsPerBlock, sh_mem, stream >>>
-//#define __syncthreads()
+#define __syncthreads()
 #else
 #define KERNEL_ARGS2(grid, block)
 #define KERNEL_ARGS3(grid, block, sh_mem)
 #define KERNEL_ARGS4(grid, block, sh_mem, stream)
-//#define __syncthreads()
+#define __syncthreads()
 #endif
 
 // Define an inline function to return the lesser of two numbers

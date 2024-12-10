@@ -23,7 +23,7 @@ void GPU_Generate_JuliaSet()
 	dim3 grid(DIM, DIM);
 	// Fancy wrapper to eliminate squiggly line in the general kernel calls
 	// GPU_Kernel << <grid, 1 >> > (device_bitmap);
-	GPU_Kernel KERNEL_ARGS2(grid, 1) (device_bitmap);	
+	juliaset_gpu KERNEL_ARGS2(grid, 1) (device_bitmap);
 	
 	// TODO: I should change the above kernel call from 1 to 10 (or N) to increase performance
 	// Try to depend less on launching blocks and try to have a balance b/w blocks and threads
@@ -58,7 +58,7 @@ void GPU_Generate_JuliaSet()
 /// </summary>
 /// <param name="_ptr"></param>
 /// <returns></returns>
-__global__ void GPU_Kernel(unsigned char *_ptr)
+__global__ void juliaset_gpu(unsigned char *_ptr)
 {
 	// Mapping occurs from threadIdx or BlockIdx to position of a pixel
 

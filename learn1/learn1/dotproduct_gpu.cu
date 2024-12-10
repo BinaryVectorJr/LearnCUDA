@@ -88,7 +88,7 @@ void GPU_CalcDotProduct()
 	cudaMemcpy(device_b, b, N * sizeof(float), cudaMemcpyHostToDevice);
 
 	// Invoking main computation kernel
-	dotproduct_gpu <<<blocksPerGrid, threadsPerBlock>>>(device_a, device_b, device_partial_c);
+	dotproduct_gpu KERNEL_ARGS2(blocksPerGrid, threadsPerBlock) (device_a, device_b, device_partial_c);
 
 	// Copying the output array from the GPU back to the CPU
 	cudaMemcpy(partial_c, device_partial_c, blocksPerGrid * sizeof(float), cudaMemcpyDeviceToHost);

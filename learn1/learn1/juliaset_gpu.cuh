@@ -30,7 +30,7 @@
 
 
 // CUDA Kernel - Called by the Host and run on the Device
-__global__ void GPU_Kernel(unsigned char *_ptr);
+__global__ void juliaset_gpu(unsigned char *_ptr);
 
 // Device specific function (and is not accessible from the CPU)
 __device__ int GPU_JuliaCalc(int _x, int _y);

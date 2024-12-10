@@ -1,10 +1,43 @@
-﻿  Compiling CUDA source file dotproduct_gpu.cu...
+﻿  Compiling CUDA source file sharedmembitmap_gpu.cu...
+  Compiling CUDA source file hello.cu...
   
-  E:\Projects\Visual Studio\LearnCUDA\learn1\learn1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\x64\Debug\dotproduct_gpu.cu.obj" "E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\dotproduct_gpu.cu" 
+  E:\Projects\Visual Studio\LearnCUDA\learn1\learn1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\x64\Debug\sharedmembitmap_gpu.cu.obj" "E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\sharedmembitmap_gpu.cu" 
+  
+  E:\Projects\Visual Studio\LearnCUDA\learn1\learn1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\x64\Debug\hello.cu.obj" "E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\hello.cu" 
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(127): warning C4005: 'CALLBACK': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(127): warning C4005: 'CALLBACK': macro redefinition
+E:\Projects\Visual Studio\LearnCUDA\learn1\common\cpu_bitmap.h(49): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            char* dummy = "";
+                          ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+E:\Projects\Visual Studio\LearnCUDA\learn1\common\cpu_bitmap.h(49): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            char* dummy = "";
+                          ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(127): warning C4005: 'CALLBACK': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(127): warning C4005: 'CALLBACK': macro redefinition
+E:\Projects\Visual Studio\LearnCUDA\learn1\common\cpu_bitmap.h(49): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            char* dummy = "";
+                          ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
   device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
-  dotproduct_gpu.cu
-  tmpxft_00007614_00000000-7_dotproduct_gpu.cudafe1.cpp
+E:\Projects\Visual Studio\LearnCUDA\learn1\common\cpu_bitmap.h(49): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            char* dummy = "";
+                          ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
   device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
-E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\dotproduct_gpu.cu(82): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\dotproduct_gpu.cu(83): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  hello.cu
+  sharedmembitmap_gpu.cu
+  tmpxft_000035f8_00000000-7_hello.cudafe1.cpp
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  tmpxft_00004e40_00000000-7_sharedmembitmap_gpu.cudafe1.cpp
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
   learn1.vcxproj -> E:\Projects\Visual Studio\LearnCUDA\learn1\x64\Debug\learn1.exe
