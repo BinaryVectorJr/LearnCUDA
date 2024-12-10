@@ -26,9 +26,6 @@
 // Define an inline function to return the lesser of two numbers
 #define imin(a,b) (a<b?a:b)
 
-// Calculating sum of squares for dot product
-#define sumSquares(x) (x*(x+1)*(2*x+1)/6)
-
 // GPU Kernel
 __global__ void dotproduct_gpu(float* a, float* b, float* c);
 

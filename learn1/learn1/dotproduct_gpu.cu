@@ -88,18 +88,20 @@ void GPU_CalcDotProduct()
 	cudaMemcpy(device_b, b, N * sizeof(float), cudaMemcpyHostToDevice);
 
 	// Invoking main computation kernel
-	dotproduct_gpu KERNEL_ARGS2(blocksPerGrid, threadsPerBlock) (device_a, device_b, device_partial_c);
+	dotproduct_gpu <<<blocksPerGrid, threadsPerBlock>>>(device_a, device_b, device_partial_c);
 
 	// Copying the output array from the GPU back to the CPU
 	cudaMemcpy(partial_c, device_partial_c, blocksPerGrid * sizeof(float), cudaMemcpyDeviceToHost);
 
 	// Once data is in CPU, finish calculations
-	int c = 0;
+	float c = 0;
 	for (int i = 0; i < blocksPerGrid; i++)
 	{
 		c += partial_c[i];
 	}
 
+	// Calculating sum of squares for dot product
+	#define sumSquares(x) (x*(x+1)*(2*x+1)/6)
 	printf("Does GPU value %.6g = %.6g?\n", c, 2 * sumSquares((float)(N - 1)));
 
 	// Memory cleanup and freeing on GPU

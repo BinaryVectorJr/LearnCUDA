@@ -3,10 +3,8 @@
   E:\Projects\Visual Studio\LearnCUDA\learn1\learn1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\x64\Debug\dotproduct_gpu.cu.obj" "E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\dotproduct_gpu.cu" 
   device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
   dotproduct_gpu.cu
-  tmpxft_000063f8_00000000-7_dotproduct_gpu.cudafe1.cpp
+  tmpxft_00007614_00000000-7_dotproduct_gpu.cudafe1.cpp
   device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
 E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\dotproduct_gpu.cu(82): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\dotproduct_gpu.cu(83): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\dotproduct_gpu.cu(100): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\dotproduct_gpu.cu(103): warning C4477: 'printf' : format string '%.6g' requires an argument of type 'double', but variadic argument 1 has type 'int'
   learn1.vcxproj -> E:\Projects\Visual Studio\LearnCUDA\learn1\x64\Debug\learn1.exe

@@ -35,8 +35,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-10-18T15:21:46.628Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -46,7 +45,7 @@
               "RelativeDocumentMoniker": "learn1\\dotproduct_gpu.cuh",
               "ToolTip": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\dotproduct_gpu.cuh",
               "RelativeToolTip": "learn1\\dotproduct_gpu.cuh",
-              "ViewState": "AQIAABEAAAAAAAAAAAD4vx0AAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-12-09T19:09:50.258Z",
               "EditorCaption": ""
@@ -59,7 +58,7 @@
               "RelativeDocumentMoniker": "learn1\\dotproduct_gpu.cu",
               "ToolTip": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\dotproduct_gpu.cu",
               "RelativeToolTip": "learn1\\dotproduct_gpu.cu",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABAAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAwGMAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-12-09T19:10:11.482Z",
               "EditorCaption": ""
