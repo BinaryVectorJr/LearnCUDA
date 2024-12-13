@@ -1,12 +1,72 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\raytracing_gpu.cuh||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|solutionrelative:learn1\\raytracing_gpu.cuh||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\hello.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|solutionrelative:learn1\\hello.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\raytracing_gpu.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8E13A9A1-7DB9-4338-A460-7E08BC5025BB}|learn1\\learn1.vcxproj|solutionrelative:learn1\\raytracing_gpu.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "hello.cu",
+              "DocumentMoniker": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\hello.cu",
+              "RelativeDocumentMoniker": "learn1\\hello.cu",
+              "ToolTip": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\hello.cu",
+              "RelativeToolTip": "learn1\\hello.cu",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-13T17:39:29.768Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "raytracing_gpu.cuh",
+              "DocumentMoniker": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\raytracing_gpu.cuh",
+              "RelativeDocumentMoniker": "learn1\\raytracing_gpu.cuh",
+              "ToolTip": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\raytracing_gpu.cuh",
+              "RelativeToolTip": "learn1\\raytracing_gpu.cuh",
+              "ViewState": "AQIAABcAAAAAAAAAAAAswCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-13T04:39:51.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "raytracing_gpu.cu",
+              "DocumentMoniker": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\raytracing_gpu.cu",
+              "RelativeDocumentMoniker": "learn1\\raytracing_gpu.cu",
+              "ToolTip": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\raytracing_gpu.cu",
+              "RelativeToolTip": "learn1\\raytracing_gpu.cu",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAQwGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-13T04:40:07.486Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

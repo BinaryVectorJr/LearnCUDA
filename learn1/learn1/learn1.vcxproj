@@ -88,6 +88,7 @@
     <CudaCompile Include="hello.cu" />
     <CudaCompile Include="juliaset.cu" />
     <CudaCompile Include="juliaset_gpu.cu" />
+    <CudaCompile Include="raytracing_gpu.cu" />
     <CudaCompile Include="sharedmembitmap_gpu.cu" />
     <CudaCompile Include="vectoradd.cu" />
   </ItemGroup>
@@ -95,6 +96,7 @@
     <ClInclude Include="dotproduct_gpu.cuh" />
     <ClInclude Include="juliaset.cuh" />
     <ClInclude Include="juliaset_gpu.cuh" />
+    <ClInclude Include="raytracing_gpu.cuh" />
     <ClInclude Include="sharedmembitmap_gpu.cuh" />
     <ClInclude Include="vectoradd.h" />
   </ItemGroup>
