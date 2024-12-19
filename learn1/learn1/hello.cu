@@ -2,7 +2,8 @@
 //#include "./juliaset.cuh"	// CPU Juliaset Viz
 //#include "./juliaset_gpu.cuh"	// GPU Juliaset Viz
 //#include "./dotproduct_gpu.cuh" // Calculation of Dot Product
-#include "./raytracing_gpu.cuh"
+//#include "./raytracing_gpu.cuh"
+#include "./heattransfer_gpu.cuh"
 
 int main()
 {
@@ -10,5 +11,5 @@ int main()
 	//GPU_Generate_JuliaSet();
 	//GPU_CalcDotProduct();
 	//GPU_SharedMemoryBitmap();
-	GPU_RayTracing();
+	//GPU_RayTracing();
 }

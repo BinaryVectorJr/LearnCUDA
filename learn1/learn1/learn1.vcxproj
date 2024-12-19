@@ -85,6 +85,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <CudaCompile Include="dotproduct_gpu.cu" />
+    <CudaCompile Include="heattransfer_gpu.cu" />
     <CudaCompile Include="hello.cu" />
     <CudaCompile Include="juliaset.cu" />
     <CudaCompile Include="juliaset_gpu.cu" />
@@ -94,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dotproduct_gpu.cuh" />
+    <ClInclude Include="heattransfer_gpu.cuh" />
     <ClInclude Include="juliaset.cuh" />
     <ClInclude Include="juliaset_gpu.cuh" />
     <ClInclude Include="raytracing_gpu.cuh" />
