@@ -34,8 +34,7 @@
               "RelativeToolTip": "learn1\\hello.cu",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-18T21:39:27.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T21:39:27.143Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "learn1\\heattransfer_gpu.cuh",
               "ToolTip": "E:\\Projects\\Visual Studio\\LearnCUDA\\learn1\\learn1\\heattransfer_gpu.cuh",
               "RelativeToolTip": "learn1\\heattransfer_gpu.cuh",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAswB0AAAAAAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAswFIAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-12-18T21:39:11.037Z",
               "EditorCaption": ""
@@ -60,8 +59,7 @@
               "RelativeToolTip": "learn1\\heattransfer_gpu.cu",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-18T21:39:23.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T21:39:23.045Z"
             }
           ]
         }
