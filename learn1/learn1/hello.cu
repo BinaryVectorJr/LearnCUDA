@@ -12,4 +12,7 @@ int main()
 	//GPU_CalcDotProduct();
 	//GPU_SharedMemoryBitmap();
 	//GPU_RayTracing();
+	// 
+	// Skip Ch7 since CUDA 12.6 does not support "texture" type, rather cudaTextureObject_t. Learn about it separately
+	GPU_HeatTransferMain();
 }

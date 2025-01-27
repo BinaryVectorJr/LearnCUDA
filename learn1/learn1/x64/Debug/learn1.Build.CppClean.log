@@ -1,16 +1,19 @@
-c:\users\amazumda\projects\learncuda\learn1\learn1\x64\debug\hello.cu.obj
-c:\users\amazumda\projects\learncuda\learn1\learn1\x64\debug\vectoradd.cu.obj
-c:\users\amazumda\projects\learncuda\learn1\x64\debug\learn1.exe
-c:\users\amazumda\projects\learncuda\learn1\x64\debug\learn1.pdb
-c:\users\amazumda\projects\learncuda\learn1\x64\debug\learn1.lib
-c:\users\amazumda\projects\learncuda\learn1\x64\debug\learn1.exp
-c:\users\amazumda\projects\learncuda\learn1\learn1\x64\debug\learn1.ilk
-c:\users\amazumda\projects\learncuda\learn1\learn1\x64\debug\hello.cu.cache
-c:\users\amazumda\projects\learncuda\learn1\learn1\x64\debug\vectoradd.cu.cache
-c:\users\amazumda\projects\learncuda\learn1\learn1\x64\debug\vc143.pdb
-c:\users\amazumda\projects\learncuda\learn1\learn1\x64\debug\learn1.tlog\cudacompile.read.1u.tlog
-c:\users\amazumda\projects\learncuda\learn1\learn1\x64\debug\learn1.tlog\cudacompile.write.1u.tlog
-c:\users\amazumda\projects\learncuda\learn1\learn1\x64\debug\learn1.tlog\link.command.1.tlog
-c:\users\amazumda\projects\learncuda\learn1\learn1\x64\debug\learn1.tlog\link.read.1.tlog
-c:\users\amazumda\projects\learncuda\learn1\learn1\x64\debug\learn1.tlog\link.secondary.1.tlog
-c:\users\amazumda\projects\learncuda\learn1\learn1\x64\debug\learn1.tlog\link.write.1.tlog
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\dotproduct_gpu.cu.obj
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\heattransfer_gpu.cu.obj
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\hello.cu.obj
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\juliaset.cu.obj
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\juliaset_gpu.cu.obj
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\raytracing_gpu.cu.obj
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\sharedmembitmap_gpu.cu.obj
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\vectoradd.cu.obj
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\dotproduct_gpu.cu.cache
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\heattransfer_gpu.cu.cache
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\hello.cu.cache
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\juliaset.cu.cache
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\juliaset_gpu.cu.cache
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\raytracing_gpu.cu.cache
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\sharedmembitmap_gpu.cu.cache
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\vectoradd.cu.cache
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\vc143.pdb
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\learn1.tlog\cudacompile.read.1u.tlog
+e:\projects\visual studio\learncuda\learn1\learn1\x64\debug\learn1.tlog\cudacompile.write.1u.tlog
