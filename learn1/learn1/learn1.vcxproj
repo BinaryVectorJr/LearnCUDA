@@ -84,6 +84,7 @@
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <CudaCompile Include="atomics_gpu.cu" />
     <CudaCompile Include="dotproduct_gpu.cu" />
     <CudaCompile Include="heattransfer_gpu.cu" />
     <CudaCompile Include="hello.cu" />
@@ -94,6 +95,8 @@
     <CudaCompile Include="vectoradd.cu" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="atomics_gpu.cuh" />
+    <ClInclude Include="CudaHandlers.cuh" />
     <ClInclude Include="dotproduct_gpu.cuh" />
     <ClInclude Include="heattransfer_gpu.cuh" />
     <ClInclude Include="juliaset.cuh" />

@@ -1,29 +1,29 @@
-﻿  Compiling CUDA source file heattransfer_gpu.cu...
+﻿  Compiling CUDA source file atomics_gpu.cu...
+  Compiling CUDA source file hello.cu...
   
-  E:\Projects\Visual Studio\LearnCUDA\learn1\learn1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\x64\Debug\heattransfer_gpu.cu.obj" "E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\heattransfer_gpu.cu" 
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(127): warning C4005: 'CALLBACK': macro redefinition
-E:\Projects\Visual Studio\LearnCUDA\learn1\common\./cpu_anim.h(61): warning #2464-D: conversion from a string literal to "char *" is deprecated
-            char* dummy = "";
-                          ^
+  E:\Projects\Visual Studio\LearnCUDA\learn1\learn1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\x64\Debug\hello.cu.obj" "E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\hello.cu" 
   
-  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(127): warning C4005: 'CALLBACK': macro redefinition
-E:\Projects\Visual Studio\LearnCUDA\learn1\common\./cpu_anim.h(61): warning #2464-D: conversion from a string literal to "char *" is deprecated
-            char* dummy = "";
-                          ^
-  
-  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
-  
-E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\heattransfer_gpu.cu(135): warning #177-D: variable "bitmap" was declared but never referenced
-    	CPUAnimBitmap* bitmap = d->bitmap;
-    	               ^
-  
-E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\heattransfer_gpu.cu(158): warning #177-D: variable "elapsedTime" was declared but never referenced
-    	float elapsedTime;
-    	      ^
-  
-  heattransfer_gpu.cu
-  tmpxft_00000f60_00000000-7_heattransfer_gpu.cudafe1.cpp
-E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\heattransfer_gpu.cu(158): warning C4101: 'elapsedTime': unreferenced local variable
-  learn1.vcxproj -> E:\Projects\Visual Studio\LearnCUDA\learn1\x64\Debug\learn1.exe
+  E:\Projects\Visual Studio\LearnCUDA\learn1\learn1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\x64\Debug\atomics_gpu.cu.obj" "E:\Projects\Visual Studio\LearnCUDA\learn1\learn1\atomics_gpu.cu" 
+  atomics_gpu.cu
+  hello.cu
+  tmpxft_0000667c_00000000-7_atomics_gpu.cudafe1.cpp
+  tmpxft_000023d8_00000000-7_hello.cudafe1.cpp
+heattransfer_gpu.cu.obj : error LNK2005: "unsigned char __cdecl value(float,float,int)" (?value@@YAEMMH@Z) already defined in atomics_gpu.cu.obj
+heattransfer_gpu.cu.obj : error LNK2005: "void __cdecl float_to_color(unsigned char *,float const *)" (?float_to_color@@YAXPEAEPEBM@Z) already defined in atomics_gpu.cu.obj
+heattransfer_gpu.cu.obj : error LNK2005: "void __cdecl float_to_color(struct uchar4 *,float const *)" (?float_to_color@@YAXPEAUuchar4@@PEBM@Z) already defined in atomics_gpu.cu.obj
+heattransfer_gpu.cu.obj : error LNK2005: "void __cdecl __device_stub__Z14float_to_colorPhPKf(unsigned char *,float const *)" (?__device_stub__Z14float_to_colorPhPKf@@YAXPEAEPEBM@Z) already defined in atomics_gpu.cu.obj
+heattransfer_gpu.cu.obj : error LNK2005: "void __cdecl __device_stub__Z14float_to_colorP6uchar4PKf(struct uchar4 *,float const *)" (?__device_stub__Z14float_to_colorP6uchar4PKf@@YAXPEAUuchar4@@PEBM@Z) already defined in atomics_gpu.cu.obj
+hello.cu.obj : error LNK2005: "void * __cdecl big_random_block(int)" (?big_random_block@@YAPEAXH@Z) already defined in atomics_gpu.cu.obj
+hello.cu.obj : error LNK2005: "int * __cdecl big_random_block_int(int)" (?big_random_block_int@@YAPEAHH@Z) already defined in atomics_gpu.cu.obj
+hello.cu.obj : error LNK2005: "unsigned char __cdecl value(float,float,int)" (?value@@YAEMMH@Z) already defined in atomics_gpu.cu.obj
+hello.cu.obj : error LNK2005: "void __cdecl float_to_color(unsigned char *,float const *)" (?float_to_color@@YAXPEAEPEBM@Z) already defined in atomics_gpu.cu.obj
+hello.cu.obj : error LNK2005: "void __cdecl float_to_color(struct uchar4 *,float const *)" (?float_to_color@@YAXPEAUuchar4@@PEBM@Z) already defined in atomics_gpu.cu.obj
+hello.cu.obj : error LNK2005: "void * __cdecl start_thread(unsigned int (__cdecl*)(void *),void *)" (?start_thread@@YAPEAXP6AIPEAX@Z0@Z) already defined in atomics_gpu.cu.obj
+hello.cu.obj : error LNK2005: "void __cdecl end_thread(void *)" (?end_thread@@YAXPEAX@Z) already defined in atomics_gpu.cu.obj
+hello.cu.obj : error LNK2005: "void __cdecl destroy_thread(void *)" (?destroy_thread@@YAXPEAX@Z) already defined in atomics_gpu.cu.obj
+hello.cu.obj : error LNK2005: "void __cdecl wait_for_threads(void * const *,int)" (?wait_for_threads@@YAXPEBQEAXH@Z) already defined in atomics_gpu.cu.obj
+hello.cu.obj : error LNK2005: "void __cdecl __device_stub__Z14float_to_colorPhPKf(unsigned char *,float const *)" (?__device_stub__Z14float_to_colorPhPKf@@YAXPEAEPEBM@Z) already defined in atomics_gpu.cu.obj
+hello.cu.obj : error LNK2005: "void __cdecl __device_stub__Z14float_to_colorP6uchar4PKf(struct uchar4 *,float const *)" (?__device_stub__Z14float_to_colorP6uchar4PKf@@YAXPEAUuchar4@@PEBM@Z) already defined in atomics_gpu.cu.obj
+     Creating library E:\Projects\Visual Studio\LearnCUDA\learn1\x64\Debug\learn1.lib and object E:\Projects\Visual Studio\LearnCUDA\learn1\x64\Debug\learn1.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+E:\Projects\Visual Studio\LearnCUDA\learn1\x64\Debug\learn1.exe : fatal error LNK1169: one or more multiply defined symbols found
